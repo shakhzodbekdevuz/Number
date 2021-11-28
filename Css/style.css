@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(87, 87, 255);
+}
+
+.container{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    background-color: white;
+    border: 1px solid rgb(196, 196, 196);
+    margin-top: 100px;
+    box-shadow: 1px 1px 10px 1px rgb(53, 53, 53);
+    border-radius: 15px;
+}
+.container h1{
+    font-size: 40px;
+}
+span{
+    font-size: 90px;
+    display: block;
+    font-weight: 900;
+}
+.container button{
+    margin-top: 50px;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: transparent;
+    font-size: 25px;
+    transition: 0.5s ease-out;
+}
+
+.container button:active{
+    background-color: rgb(120, 120, 245);
+}
