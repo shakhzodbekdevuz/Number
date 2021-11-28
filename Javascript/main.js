@@ -8,20 +8,27 @@ btns.forEach(function(btn){
        const num=e.currentTarget.classList;
        if(num.contains("1")){
            s--;
-           text.textContent=s;
        }
-       else{
+       else
           if (num.contains("2")) {
             s=0;
-            text.textContent = s;
           }
-          else{
+          else
               if (num.contains("3")) {
             s++;
-            text.textContent = s;
           }
+        
+        if(s>0){
+           text.style.color="green";
         }
-       }
+        if (s < 0) {
+          text.style.color = "red";
+        }
+        if (s == 0) {
+          text.style.color = "gray";
+        }
+        text.textContent=s;
        
-   })
-})
+       
+   });
+});
