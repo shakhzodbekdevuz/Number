@@ -1,2 +1,2 @@
-# Number---
+# Number
 Javascript practic
